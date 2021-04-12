@@ -10,7 +10,7 @@ source /usr/local/lib/antiX/antiX-common.sh  "$@"
 
 SAFETY_MARGIN=10
 
-   MKFS_FREE_MARGIN=20
+  #MKFS_FREE_MARGIN=20
   rootfs_SIZE_PARAM="min_size=250 mid_size=100 max_size=8192  factor=50"
   homefs_SIZE_PARAM="min_size=10  mid_size=100 max_size=10240 factor=25"
         MKFS_SIZES="5 10 50 100 150 200 250 300 400 500 750 1024 1536 2048 2560 3072 4096
